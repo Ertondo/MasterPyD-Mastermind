@@ -9,7 +9,7 @@ function initMastermindView() {
   return {
     play: function () {
       const continueDialog = continuedDialogView(
-        "Quiere jugar otra ves?(si/no)"
+        "Quieres jugar otra ves?(si/no)"
       );
       do {
         initGameView(title).play();
